@@ -42,25 +42,25 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <a href="#user-master">User Master</a>
+            <a href="user-master">User Master</a>
           </li>
           <li>
-            <a href="#user-type-master">User Type Master</a>
+            <a href="user-type-master">User Type Master</a>
           </li>
           <li>
-            <a href="#cms-master-page">CMS Master Page</a>
+            <a href="cms-master-page">CMS Master Page</a>
           </li>
         </ul>
       </nav>
-      {/* <section id="user-master">
+      <section id="user-master">
         <UserMaster />
       </section>
-      <section id="user-type-master">
+      {/* <section id="user-type-master">
         <UserTypeMaster />
       </section> */}
-      <section id="cms-master-page">
+      {/* <section id="cms-master-page">
         <CmsMasterPage />
-      </section>
+      </section> */}
     </div>
   );
 };
